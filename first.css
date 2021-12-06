@@ -55,17 +55,40 @@ ul li {
     height:40px;
     float: left;
    background-color: rgb(8, 161, 8);
-   position: relative;
+   display: inline-block;
+   /* position: relative;
    top: 0px;
-   left: 20px;
+   left: 20px; */
 }
 
 ul div button a {
     text-decoration: none;
     color: white;   
 }
+
 .grey-hr {
     width: 100%;
     border: 0/5px solid rgb(194, 182, 182);
+    margin-top: 50px;
+}
+.h1-div {
+   text-align: center;
+    color: rgb(78, 74, 74);
+}
+.parent-of-circle {
+    margin-top: 0px;
+}
+.circle {
+    border:2px solid rgb(241, 188, 12) ;
+    text-align: center;
+    border-radius: 50%;
+    width: 150px;
+    height: 150px;
+    background-color: rgb(241, 188, 12);
+    margin: 100px;
+    display: inline-block;
+    
+}
+.text_under_icon {
     margin-top: 50px;
 }
