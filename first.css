@@ -49,16 +49,19 @@ ul li {
     color: rgb(109, 103, 103);
 }
 
+.my-ul {
+    position: relative;
+}
+
 .myshop-button {
     border-radius: 20px;
     width: 180px;
     height:40px;
     float: left;
    background-color: rgb(8, 161, 8);
-   display: inline-block;
-   /* position: relative;
-   top: 0px;
-   left: 20px; */
+   position: absolute;
+    top: 20px;
+    left: 10px;
 }
 
 ul div button a {
