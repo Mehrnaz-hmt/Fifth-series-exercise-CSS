@@ -1,15 +1,18 @@
 @font-face {
-    font-family: 'IRANSansWeb';
+    font-family: iransans;
     src: url("./fonts/IRANSansWeb.ttf") format('ttf');
     src: url("./fonts/IRANSansWeb_Bold.ttf") format('ttf');
     src: url("./fonts/IRANSansWeb_Light.ttf") format('ttf');
     src: url("./fonts/IRANSansWeb_Medium.ttf") format('ttf');
     src: url("./fonts/IRANSansWeb_UltraLight.ttf") format('ttf');
 }
-
+*{
+    font-family: iransans,sans-serif;
+   
+}
 
 body {
-    font-family: 'IRANSansWeb',sans-serif,arial;
+    /* font-family: 'IRANSansWeb',sans-serif,arial; */
     width: 100%;
     font-weight: normal;
     margin-top: 0px;
@@ -42,11 +45,18 @@ width: 100%;
 .behinee {
     width:70px;
     height: 70px;
+    margin-top: 20px;
     margin-right: 10%;
    float: right;
    
 }
-
+ul li:hover{
+background-color: rgb(8, 161, 8);
+width:75px;
+height: 30px;
+border:1px solid green;
+border-radius: 13px ;
+}
 ul li {
     font-weight: normal;
     display:inline-block;
@@ -71,7 +81,7 @@ ul button {
     margin:0/25%;
     margin-left:20px;
     position: relative;
-   
+   font-family: 'IRANSansWeb';
 }
 
 
@@ -108,6 +118,7 @@ ul div button a {
     width: 150px;
     height: 150px;
     margin: 120px;
+    margin-top: 0px;
     display: inline-block;
 }
 
@@ -138,6 +149,7 @@ ul div button a {
     color:  rgb(8, 161, 8);
     font-size: 30px;
     font-weight: bolder;
+    
 
 }
 .box1 {
@@ -200,7 +212,7 @@ ul div button a {
     box-shadow: 5px 5px 5px 3px rgb(196, 190, 190);
     display:inline-block;
     margin:20px;
-    
+    margin-right: 100px;
 }
 .box4 img{
     width:50px;
